@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HTML Workshop Example</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <h1>HTML Workshop Example</h1>
+  <!-- Overview -->
+  <h2>Topics</h2>
+  <ul>
+    <li>Structure
+      <ol>
+        <li>Elements</li>
+        <li>Attributes</li>
+        <li>Accessibility</li>
+      </ol>
+    </li>
+    <li>Tables</li>
+    <li>Forms</li>
+  </ul>
+  <!-- Text -->
+  <h2>Header 2</h2>
+  <p>This is a paragraph.</p>
+  <h3>Header 3</h3>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In feugiat diam odio, id vehicula arcu commodo et. Nulla suscipit ac dolor eu tincidunt. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur iaculis rhoncus sem id scelerisque. Donec ac massa volutpat, tristique quam vitae, pretium dui. Nam vel augue eget enim semper efficitur et non lectus. Suspendisse sed sapien diam. Integer urna tortor, condimentum interdum maximus nec, vestibulum nec nunc. Fusce felis magna, ornare vel suscipit ullamcorper, elementum at purus. Vestibulum ac ligula malesuada, rhoncus dolor in, ultrices dolor. Nullam placerat faucibus nisi quis venenatis. Nulla viverra arcu nisi, a pellentesque lorem molestie ut. Quisque quis porta tortor.</p>
+  <h4>Header 4</h4>
+  <p>This is yet another paragraph with a <a href="https://cl.gy/XWop">link</a>.</p>
+  <h5>Header 5</h5>
+  <p>Another paragraph with <b>bold-emphasis</b> text.</p>
+  <h6>Header 6</h6>
+  <p>This is the final paragraph, with <i>italic-emphasis</i> text.</p>
+  <!-- Multimedia -->
+  <h2>Audio</h2>
+  <audio controls>
+    <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+  </audio>
+  <h2>Image</h2>
+  <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTISu2VkifoyQnEoEuw5vYJw3x6iNRWyNZ4mY8eU3rkLqJrYG6N" alt="cat meme" width="500" height="333">
+  <h2>Video</h2>
+  <video width="320" height="240" controls>
+    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+  </video>
+  <!-- Tables -->
+  <h2>Table</h2>
+  <table border="5">
+    <tr>
+      <th>Header 1</th>
+      <th>Header 2</th>
+      <th>Header 3</th>
+    </tr>
+    <tr>
+      <td>Row 1, Cell 1</td>
+      <td>Row 1, Cell 2</td>
+      <td>Row 1, Cell 3</td>
+    </tr>
+    <tr>
+      <td>Row 2, Cell 1</td>
+      <td>Row 2, Cell 2</td>
+      <td>Row 2, Cell 3</td>
+    </tr>
+  </table>
+  <!-- Forms -->
+  <h2>Form</h2>
+  <form action="/handle-submit" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required />
+    <br />
+    <label for="mail">Email:</label>
+    <input type="email" id="mail" name="email" required />
+    <br />
+    <fieldset>
+      <legend>Requires reply?</legend>
+      <label for="yes">Yes</label>
+      <input type="radio" id="yes" name="reply" value="yes" />
+      <label for="no">No</label>
+      <input type="radio" id="no" name="reply" value="no" />
+    </fieldset>
+    <br />
+    <label for="message">Message:</label>
+    <textarea id="message" name="message"></textarea>
+    <br />
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
